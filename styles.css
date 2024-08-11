@@ -48,8 +48,9 @@ header nav ul li a {
   transition: color 0.3s ease;
 }
 
-header nav ul li a:hover {
-  color: #00bfff; /* Highlight color on hover */
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #27D3B4; /* Highlight color on hover */
 }
 
 /* Main content styling - Two Column Layout */
@@ -60,24 +61,50 @@ main .hero {
   margin: 5px 25px 0 0;
 }
 
+/* Overlay text styling */
 main .hero .overlay-text {
-  flex: 1;
-  background-color: #fff;
-  padding: 40px;
-  z-index: 2; /* Ensures this column is on top */
-  color: #000;
-}
-
-main .hero .overlay-text h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-  letter-spacing: 5px;
+  font-family: "Raleway", "Helvetica W01 Light", Helvetica, sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top: 52%;
+  left: 11%;
+  z-index: 2; /* Ensures this text is on top of the image */
+  color: #222; 
+  line-height: 1;
 }
 
 main .hero .overlay-text p {
-  font-size: 2em;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+  background: #FFF;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  padding-top: 5px;
+  vertical-align: baseline;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 700;
 }
+
+/* Band Name styling */
+main .hero .band-name {
+  font-family: "Marzo W00 Regular", Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  position: absolute;
+  top: 31%;
+  left: 10%;
+  z-index: 3; /* Ensures this text is on top of everything */
+  color: #222; /* Color similar to the original */
+  line-height: 1.2;
+  letter-spacing: 6px;
+}
+
+main .hero .band-name span {
+  display: block; /* Forces each word onto a new line */
+}
+
 
 main .hero img {
   width: 910px;
