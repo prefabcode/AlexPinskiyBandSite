@@ -1,0 +1,140 @@
+/* Reset some basic styling */
+body, h1, p, ul, li, img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Helvetica W01 Light", Helvetica, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Container for content centering */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-right: 110px;
+  margin-left: 100px;
+}
+
+header .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #00bfff; /* Highlight color on hover */
+}
+
+/* Main content styling - Two Column Layout */
+main .hero {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin: 5px 25px 0 0;
+}
+
+main .hero .overlay-text {
+  flex: 1;
+  background-color: #fff;
+  padding: 40px;
+  z-index: 2; /* Ensures this column is on top */
+  color: #000;
+}
+
+main .hero .overlay-text h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+main .hero .overlay-text p {
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+main .hero img {
+  width: 910px;
+  height: 685px;
+  z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .container {
+    padding: 10px;
+  }
+
+  header nav ul {
+    gap: 10px;
+  }
+
+  main .hero {
+    flex-direction: column;
+  }
+
+  main .hero img {
+    width: 100%;
+    left: 0;
+    position: static;
+  }
+
+  main .hero .overlay-text {
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+  }
+
+  main .hero .overlay-text h1 {
+    font-size: 2.5em;
+  }
+
+  main .hero .overlay-text p {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .social-icons {
+    margin-bottom: 10px;
+  }
+
+  main .hero .overlay-text h1 {
+    font-size: 2em;
+  }
+
+  main .hero .overlay-text p {
+    font-size: 1.2em;
+  }
+}
