@@ -125,6 +125,55 @@ main .video-grid {
   width: 980px;
 }
 
+/* Contact Section Styling */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  gap: 20px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info {
+  flex: 1;
+  font-family: "Raleway", "Helvetica W01 Light", Helvetica, sans-serif;
+}
+
+.contact-info h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  margin-top: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.contact-info ul li + li {
+  margin-top: 20px;
+}
+
+.contact-image {
+  flex: 1;
+  max-width: 100%;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+}
+
+
 /* Responsive adjustments */
 @media (max-width: 1200px) {
   .container {
@@ -184,5 +233,14 @@ main .video-grid {
 
   main .video-grid {
     grid-template-columns: 1fr; /* Single column on mobile */
+  }
+
+  .contact-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-image {
+    margin-top: 20px;
   }
 }
