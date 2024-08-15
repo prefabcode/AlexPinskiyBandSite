@@ -248,7 +248,10 @@ main .video-grid {
 
 /* Gallery Section Styling */
 .gallery-section {
-  margin-top: 40px;
+  margin-top: 10px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery-grid {
@@ -258,7 +261,8 @@ main .video-grid {
 }
 
 .gallery-item {
-  width: 100%;
+  width: 255px;
+  height: 255px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
