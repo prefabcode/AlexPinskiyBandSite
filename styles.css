@@ -380,9 +380,15 @@ main .review-hero .overlay-text p {
   font-weight: 700;
 }
 
+main .review-hero .review-award {
+  position: absolute;
+  top: 0%;
+  left: 14%;
+}
+
 /* Reviews iframe styling */
 .reviews-iframe {
-  margin: 5px 66px 0 0;
+  margin-right: 66px;
   padding: 0 20px;
   display: flex;
   justify-content: flex-end;
