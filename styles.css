@@ -398,3 +398,55 @@ main .review-hero .review-award {
   border: none;
   width: 786px; /* Adjust to match the width of your content */
 }
+
+/* Music Section Styling */
+/* Music Section Styling */
+.music-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#player-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#tracklist ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  max-height: 400px; /* Adjust based on your preference */
+  overflow-y: auto;
+}
+
+#tracklist ul li {
+  margin: 15px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#tracklist ul li:hover,
+#tracklist ul li.active {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.download-link {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 20px;
+}
