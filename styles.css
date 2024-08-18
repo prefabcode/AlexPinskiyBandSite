@@ -416,7 +416,7 @@ main .review-hero .review-award {
   list-style-type: none;
   padding: 0;
   margin: 20px 0;
-  max-height: 650px; /* Adjust based on your preference */
+  max-height: 650px;
   overflow-y: auto;
 }
 
