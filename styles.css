@@ -337,3 +337,58 @@ main .video-grid {
     max-height: 95%;
   }
 }
+
+/* Review section styling */
+main .review-hero {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  margin: 5px 90px 0 0;
+}
+
+main .review-hero img {
+  width: 786px;
+  height: 448px;
+  z-index: 1;
+  object-fit: contain;
+}
+
+
+/* Overlay text styling */
+main .review-hero .overlay-text {
+  font-family: "Raleway", "Helvetica W01 Light", Helvetica, sans-serif;
+  font-size: 80px;
+  position: absolute;
+  top: 81%;
+  left: 14%;
+  z-index: 2; /* Ensures this text is on top of the image */
+  color: #222; 
+  line-height: 1;
+}
+
+main .review-hero .overlay-text p {
+  letter-spacing: 5px;
+  background: #FFF;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  padding-top: 5px;
+  vertical-align: baseline;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 700;
+}
+
+/* Reviews iframe styling */
+.reviews-iframe {
+  margin: 5px 66px 0 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reviews-iframe iframe {
+  border: none;
+  width: 786px; /* Adjust to match the width of your content */
+}
