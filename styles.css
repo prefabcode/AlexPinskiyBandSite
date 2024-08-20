@@ -214,14 +214,6 @@ main .video-grid {
 }
 
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  header .social-icons {
-    margin-bottom: 10px;
-  }
 
   main .hero .overlay-text h1 {
     font-size: 2em;
