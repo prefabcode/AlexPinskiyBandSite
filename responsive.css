@@ -1,0 +1,41 @@
+/* reviews */
+/* 
+  up to 768px is mobile
+  768px to 1200px is tablet
+  1200px onward is desktop
+*/
+@media screen and (max-width: 767px), 
+screen and (min-width: 768px) and (max-width: 1199px) {
+  .review-hero .review-award, .review-hero .overlay-text {
+    display: none;
+  }
+
+  .review-hero {
+    justify-content: center;
+    margin: 0;
+  }
+
+  
+  .reviews-iframe {
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .review-hero img {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .review-hero img {
+    width: 350px;
+    height: 200px;
+  }
+
+  .reviews-iframe iframe {
+    height: 1200px;
+  }
+}

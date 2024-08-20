@@ -339,23 +339,21 @@ main .video-grid {
 }
 
 /* Review section styling */
-main .review-hero {
+.review-hero {
   display: flex;
   position: relative;
   justify-content: flex-end;
   margin: 5px 90px 0 0;
 }
 
-main .review-hero img {
+.review-hero img {
   width: 786px;
   height: 448px;
   z-index: 1;
   object-fit: contain;
 }
 
-
-/* Overlay text styling */
-main .review-hero .overlay-text {
+.review-hero .overlay-text {
   font-family: "Raleway", "Helvetica W01 Light", Helvetica, sans-serif;
   font-size: 80px;
   position: absolute;
@@ -366,7 +364,7 @@ main .review-hero .overlay-text {
   line-height: 1;
 }
 
-main .review-hero .overlay-text p {
+.review-hero .overlay-text p {
   letter-spacing: 5px;
   background: #FFF;
   border: 0;
@@ -380,7 +378,7 @@ main .review-hero .overlay-text p {
   font-weight: 700;
 }
 
-main .review-hero .review-award {
+.review-hero .review-award {
   position: absolute;
   top: 0%;
   left: 14%;
@@ -397,9 +395,9 @@ main .review-hero .review-award {
 .reviews-iframe iframe {
   border: none;
   width: 786px; /* Adjust to match the width of your content */
+  height: 740px;
 }
 
-/* Music Section Styling */
 /* Music Section Styling */
 .music-section {
   margin-top: 40px;
