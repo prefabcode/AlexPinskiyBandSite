@@ -31,6 +31,10 @@ screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .contact-section {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -46,6 +50,16 @@ screen and (min-width: 768px) and (max-width: 1199px) {
   header {
     margin-right: 20px;
     margin-left: 20px;
+  }
+
+  .contact-section {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-image {
+    margin-top: 10px;
+    width: 400px;
   }
 }
 /* Burger menu styles */
