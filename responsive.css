@@ -24,6 +24,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  main .hero .overlay-text h1 {
+    font-size: 2em;
+  }
+
+  main .hero .overlay-text p {
+    font-size: 1.2em;
+  }
+
+  main .video-grid {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+}
+
 @media screen and (max-width: 767px) {
   .video-grid iframe,
   .video-grid video {
