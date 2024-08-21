@@ -31,8 +31,6 @@ screen and (min-width: 768px) and (max-width: 1199px) {
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768) {}
-
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .review-hero img {
@@ -78,6 +76,15 @@ screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: auto;
     width: 315px;
     height: 300px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fullscreen-viewer .viewer-image {
+    max-width: 95%;
+    max-height: 95%;
   }
 }
 /* Burger menu styles */
