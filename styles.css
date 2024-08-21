@@ -58,7 +58,6 @@ main .hero {
   display: flex;
   position: relative;
   justify-content: center;
-  align-items: center;
   margin: 0;
   height: 100vh; /* Full viewport height */
 }
@@ -66,10 +65,10 @@ main .hero {
 /* Overlay text styling */
 main .hero .overlay-text {
   font-family: "Raleway", "Helvetica W01 Light", Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 66px;
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  bottom: 288px;
+  left: 145px;
   z-index: 2; /* Ensures this text is on top of the image */
   color: #222; 
   line-height: 1;
@@ -109,9 +108,6 @@ main .hero .band-name span {
 
 
 main .hero img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 910px;
   height: 685px;
   z-index: 1;
