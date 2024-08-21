@@ -4,7 +4,34 @@
   768px to 1200px is tablet
   1200px onward is desktop
 */
-@media screen and (max-width: 1199px) {
+/* Video grid styles */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.video-grid iframe,
+.video-grid video {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video-grid iframe,
+  .video-grid video {
+    width: 100%;
+    max-width: 100%;
+  }
+}
   .review-hero .review-award, .review-hero .overlay-text {
     display: none;
   }
