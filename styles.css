@@ -122,7 +122,6 @@ main .video-grid {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 980px;
 }
 
 /* Contact Section Styling */
@@ -175,6 +174,7 @@ main .video-grid {
 
 
 /* Responsive adjustments */
+/* 
 @media (max-width: 1200px) {
   .container {
     padding: 10px;
@@ -209,9 +209,10 @@ main .video-grid {
   }
 
   main .video-grid {
-    grid-template-columns: 1fr; /* Change to single column on smaller screens */
+    grid-template-columns: 1fr; 
   }
 }
+*/
 
 @media (max-width: 768px) {
 
