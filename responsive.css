@@ -196,4 +196,8 @@
   main .video-grid { 
     width: 100%;
   }
+
+  main .hero {
+    width: 100%;
+  }
 }

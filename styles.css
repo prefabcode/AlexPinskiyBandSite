@@ -53,25 +53,24 @@ header nav ul li a.active {
   color: #27D3B4; /* Highlight color on hover */
 }
 
-/* Main content styling - Two Column Layout */
 main .hero {
   display: flex;
-  position: relative;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
+  width: 1200px;
 }
 
 /* Overlay text styling */
 main .hero .overlay-text {
   font-family: "Raleway", "Helvetica W01 Light", Helvetica, sans-serif;
   font-size: 66px;
-  position: absolute;
-  bottom: 288px;
-  left: 145px;
-  z-index: 2; /* Ensures this text is on top of the image */
+  margin-bottom: -284px;
+  z-index: 2;
   color: #222; 
   line-height: 1;
+  transform: translate(-332px, 401px);
 }
 
 main .hero .overlay-text p {
