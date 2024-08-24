@@ -200,4 +200,8 @@
   main .hero {
     width: 100%;
   }
+
+  main .overlay-text {
+    display: none;
+  }
 }
