@@ -131,6 +131,13 @@
     max-width: 95%;
     max-height: 95%;
   }
+
+  main .hero img.band-image-large {
+    display: none;
+  }
+  main .hero img.band-image-mobile {
+    display: block;
+  }
 }
 /* Burger menu styles */
 .burger-menu {
@@ -203,5 +210,10 @@
 
   main .overlay-text {
     display: none;
+  }
+
+  html.main-page,
+  body.main-page {
+    overflow: hidden;
   }
 }

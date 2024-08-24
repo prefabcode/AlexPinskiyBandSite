@@ -106,10 +106,17 @@ main .hero .band-name span {
 }
 
 
-main .hero img {
+main .hero img.band-image-large {
   width: 910px;
   height: 685px;
   z-index: 1;
+  display: block;
+}
+
+main .hero img.band-image-mobile {
+  width: 269px; 
+  height: 202px;
+  display: none;
 }
 
 
