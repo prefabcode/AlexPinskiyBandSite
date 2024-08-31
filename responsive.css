@@ -216,4 +216,17 @@
   body.main-page {
     overflow: hidden;
   }
+
+  .review-hero {
+    justify-content: center;
+    margin: 5px 0 0 0;
+  }
+  .review-award {
+    display: none;
+  }
+  .reviews-iframe {
+    justify-content: center;
+    margin: 0;
+    
+  }
 }
